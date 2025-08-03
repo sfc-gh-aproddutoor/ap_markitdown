@@ -27,7 +27,7 @@ def create_table():
     cursor = conn.cursor()
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS PERSONS (
-            ID INTEGER AUTOINCREMENT,
+            ID INTEGER AUTOINCREMENT, 
             NAME STRING NOT NULL
         )
     """)
